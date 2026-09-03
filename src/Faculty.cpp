@@ -20,12 +20,20 @@ void Faculty::setDepartment(const std::string& department) {
 }
 
 // TODO: Implement getRank and setRank methods.
-const std::string& Faculty::getRank() const noexcept { }
-void Faculty::setRank(const std::string& rank) { }
+const std::string& Faculty::getRank() const noexcept { 
+    
+}
+void Faculty::setRank(const std::string& rank) { 
+    
+}
 
 //TODO: Implement getOffice and setOffice methods.
-const std::string& Faculty::getOffice() const noexcept {}
-void Faculty::setOffice(const std::string& office) { }
+const std::string& Faculty::getOffice() const noexcept {
+    
+}
+void Faculty::setOffice(const std::string& office) { 
+    
+}
 
 
 //TODO: Implement getRole method to return "Faculty".
