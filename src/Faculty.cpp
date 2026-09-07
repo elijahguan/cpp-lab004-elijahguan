@@ -21,29 +21,29 @@ void Faculty::setDepartment(const std::string& department) {
 
 // TODO: Implement getRank and setRank methods.
 const std::string& Faculty::getRank() const noexcept { 
-    
+    return rank_;
 }
 void Faculty::setRank(const std::string& rank) { 
-    
+    rank_ = rank;
 }
 
 //TODO: Implement getOffice and setOffice methods.
 const std::string& Faculty::getOffice() const noexcept {
-    
+    return office_;
 }
 void Faculty::setOffice(const std::string& office) { 
-    
+	office_ = office;
 }
 
 
 //TODO: Implement getRole method to return "Faculty".
 std::string Faculty::getRole() const {
-
+	return "Faculty";
 }
 
 //TODO: Implement getDescription method to return a string describing the faculty member.
 std::string Faculty::getDescription() const {
-    
+    return department_ + " faculty member with rank " + rank_;
 }
 
 double Faculty::calculateWorkload() const {
